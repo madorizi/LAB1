@@ -1,5 +1,6 @@
 package com.example.lab1;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,10 +31,21 @@ public class MainActivity extends AppCompatActivity {
         BtnChangeText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TvMain.setText("Hello World!");
+                TvMain.setText("LAB1");
+            }
+        });
+
+        Button BtnChangeColor = findViewById(R.id.button2);
+
+        BtnChangeColor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TvMain.setTextColor(Color.RED);
             }
         });
     }
+
+
 
 
 }
