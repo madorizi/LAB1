@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         BtnChangeColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TvMain.setTextColor(Color.BLACK);
+                TvMain.setTextColor(Color.GREEN);
             }
         });
 
