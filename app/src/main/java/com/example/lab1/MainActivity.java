@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
                 v.getRootView().setBackgroundColor(Color.BLUE);
             }
         });
+
+        //Code for revert
     }
 
 
