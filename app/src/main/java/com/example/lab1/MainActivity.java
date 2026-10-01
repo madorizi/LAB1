@@ -40,7 +40,15 @@ public class MainActivity extends AppCompatActivity {
         BtnChangeColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TvMain.setTextColor(Color.RED);
+                TvMain.setTextColor(Color.BLACK);
+            }
+        });
+
+        Button BtnChangeBg = findViewById(R.id.button3);
+        BtnChangeBg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.getRootView().setBackgroundColor(Color.BLUE);
             }
         });
     }
